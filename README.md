@@ -2,10 +2,10 @@ Easily install Python, pipenv and Pipfile packages in your GitHub Action
 
 ## Features
 
-🐍 Installs Python
-🔨 Installs pipenv
-📦 Installs Pipfile packages with pipenv
-💽 Caches packages for future use
+- 🐍 Installs Python
+- 🔨 Installs pipenv
+- 📦 Installs Pipfile packages with pipenv
+- 💽 Caches packages for future use
 
 ## Inputs
 
