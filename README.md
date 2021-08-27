@@ -1,5 +1,3 @@
-# install-python-pipenv-pipfile
-
 Easily install Python, pipenv and Pipfile packages in your GitHub Action
 
 ## Features
@@ -13,7 +11,7 @@ Easily install Python, pipenv and Pipfile packages in your GitHub Action
 
 * `python-version`: The version of Python to install
 
-## Example usage
+## Usage
 
 ```yaml
 name: Example action
