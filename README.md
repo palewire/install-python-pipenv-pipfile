@@ -16,7 +16,7 @@ Easily install Python, pipenv and Pipfile packages in your GitHub Action
 ## Example usage
 
 ```yaml
-name: Example job
+name: Example action
 jobs:
   job:
     name: My job
