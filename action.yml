@@ -31,5 +31,5 @@ runs:
 
     - id: sync-pipfile
       name: Sync Pipfile
-      run: pipenv sync --dev
+      run: pipenv sync --dev --python ${{ inputs.python-version }}
       shell: bash
