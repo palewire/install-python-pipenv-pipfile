@@ -1,19 +1,17 @@
-# install-python-pipenv-pipfile
-
 Easily install Python, pipenv and Pipfile packages in your GitHub Action
 
 ## Features
 
-* Installs Python
-* Installs pipenv
-* Installs Pipfile packages with pipenv
-* Caches packages for future use
+- 🐍 Installs Python
+- 🔨 Installs pipenv
+- 📦 Installs Pipfile packages
+- 💽 Caches packages for future use
 
 ## Inputs
 
 * `python-version`: The version of Python to install
 
-## Example usage
+## Usage
 
 ```yaml
 name: Example action
@@ -28,7 +26,7 @@ jobs:
       - name: Install Python, pipenv and Pipfile packages
         uses: palewire/install-python-pipenv-pipfile@v1
         with:
-            python-version: 3.8
+          python-version: 3.8
 
       - name: Do my thing
         run: make
