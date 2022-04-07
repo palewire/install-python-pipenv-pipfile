@@ -5,6 +5,7 @@ inputs:
   python-version:
     description: “The version of Python to use”
     required: true
+    type: string
 
 runs:
   using: "composite"
