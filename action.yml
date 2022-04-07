@@ -13,7 +13,7 @@ runs:
       name: Setup Python
       uses: actions/setup-python@v2
       with:
-        python-version:  ${{ inputs.python-version }}
+        python-version:  ${{ inputs.python-version.string }}
 
     - id: install-pipenv
       name: Install pipenv
