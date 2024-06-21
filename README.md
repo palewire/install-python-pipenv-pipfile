@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install Python, pipenv and Pipfile packages
-        uses: palewire/install-python-pipenv-pipfile@v3
+        uses: palewire/install-python-pipenv-pipfile@v4
         with:
           python-version: 3.9
 
